@@ -3,12 +3,7 @@ generate fake conversation in Slack channels
 
 # Usage
 
-You can run this tool in two ways:
-
-## 1. Using the Slack Bot UI
-Install as a Slack app and use the `/crowd` command to trigger the dialog.
-
-## 2. From the Command Line
+## From the Command Line
 You can also run specific scenes directly from the command line with parameters:
 
 ### Setup Virtual Environment
@@ -36,13 +31,13 @@ python list_scenes.py
 ./.venv/bin/python list_scenes.py
 
 # Run a scene using Python directly (after activating the virtual environment)
-python crowd.py --scene the-matrix --channel C123456 --delay 2 --speed 1.0
+python crowd.py --scene the-matrix --channel SLACK_CHANNEL_ID --delay 2 --speed 1.0
 
 # Or run without activating (using the virtual environment's Python directly)
-./.venv/bin/python crowd.py --scene the-matrix --channel C123456 --delay 2 --speed 1.0
+./.venv/bin/python crowd.py --scene the-matrix --channel SLACK_CHANNEL_ID --delay 2 --speed 1.0
 
 # Or use the convenience shell script
-./run_scene.sh the-matrix C123456 2 1.0
+./run_scene.sh the-matrix SLACK_CHANNEL_ID 2 1.0
 ```
 
 ### Command-line Arguments
