@@ -10,6 +10,10 @@ You can also run specific scenes directly from the command line with parameters:
 Before running the script, set up a Python virtual environment to manage dependencies:
 
 ```bash
+# Cloned the repository, and navigate to the newly created directory
+git clone https://github.com/chobbs/slack-dialogue-generater.git
+cd ./slack-dialogue-generater/
+
 # Create a virtual environment (only needs to be done once)
 python3 -m venv .venv
 
