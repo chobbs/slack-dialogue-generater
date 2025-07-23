@@ -79,3 +79,9 @@ export SLACK_BOT_TOKEN=xoxb-***
 ## The Matrix
 
 <img width="626" alt="image" src="https://github.com/nicwaller/crowd/assets/2850248/77ad3e2d-729b-4ad2-bd58-850ce127da2d">
+
+---
+
+## Acknowledgments
+
+This repository is a fork of [nicwaller/crowd](https://github.com/nicwaller/crowd), with additional virtual environment setup instructions and other improvements. Full credit for the original implementation goes to [Nic Waller](https://github.com/nicwaller).
