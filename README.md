@@ -33,14 +33,17 @@ python list_scenes.py
 
 # Option 2: Using the virtual environment's Python directly
 ./.venv/bin/python list_scenes.py
+```
 
-# Run a scene using Python directly (after activating the virtual environment)
+```bash
+# Run available scenes
+# Option 1: Run a scene using Python directly (after activating the virtual environment)
 python crowd.py --scene the-matrix --channel SLACK_CHANNEL_ID --delay 2 --speed 1.0
 
-# Or run without activating (using the virtual environment's Python directly)
+# Option 2: Run without activating (using the virtual environment's Python directly)
 ./.venv/bin/python crowd.py --scene the-matrix --channel SLACK_CHANNEL_ID --delay 2 --speed 1.0
 
-# Or use the convenience shell script
+# Option 3: Use the convenience shell script
 ./run_scene.sh the-matrix SLACK_CHANNEL_ID 2 1.0
 ```
 
