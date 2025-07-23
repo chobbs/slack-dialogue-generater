@@ -1,7 +1,5 @@
-# crowd
+# Slack Dialogue Generater
 generate fake conversation in Slack channels
-
-<img width="464" alt="image" src="https://github.com/nicwaller/crowd/assets/2850248/9544382d-846d-4996-b5e1-fac272f8ea42">
 
 # Usage
 
